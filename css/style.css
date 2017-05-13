@@ -1,1 +1,10 @@
 /* Custom styles go here. */
+.well {
+  background-color:darkturquoise
+}
+.navbar {
+  background-color:darkturquoise;
+}
+.panel {
+  background-color:darkturquoise;
+}
