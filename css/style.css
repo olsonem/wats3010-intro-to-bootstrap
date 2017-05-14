@@ -8,3 +8,9 @@
 .panel {
   background-color:darkturquoise;
 }
+.col-sm-3 img {
+padding: 10px
+}
+.col-sm-1 img {
+padding: 10px
+}
