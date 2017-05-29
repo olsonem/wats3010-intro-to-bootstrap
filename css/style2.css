@@ -1,0 +1,37 @@
+/* Custom styles go here. */
+.well {
+  background-color:darkturquoise
+}
+.navbar {
+  background-color:darkturquoise;
+}
+.panel {
+  background-color:darkturquoise;
+}
+.col-sm-3 img {
+padding: 10px
+}
+.col-sm-1 img {
+padding: 10px
+}
+
+.carousel.fade {
+  opacity: 1;
+}
+.carousel.fade .item {
+  transition: opacity ease-out 2s;
+  left: 0;
+  opacity: 0; /* hide all slides */
+  top: 0;
+  position: absolute;
+  width: 100%;
+  display: block;
+}
+.carousel.fade .item:first-child {
+  top: auto;
+  opacity: 1; /* show first slide */
+  position: relative;
+}
+.carousel.fade .item.active {
+  opacity: 1;
+}

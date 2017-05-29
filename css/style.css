@@ -5,12 +5,119 @@
 .navbar {
   background-color:darkturquoise;
 }
+.navbar-inverse .navbar-nav>li>a {
+  color: navy;
+}
+.navbar-inverse .navbar-brand, .page-header {
+  color: navy;
+}
+.active li{
+  background-color: navy;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: navy;
+}
 .panel {
   background-color:darkturquoise;
+}
+.h1 .small, .h1 small, .h2 .small, .h2 small, .h3 .small, .h3 small, .h4 .small, .h4 small, .h5 .small, .h5 small, .h6 .small, .h6 small, h1 .small, h1 small, h2 .small, h2 small, h3 .small, h3 small, h4 .small, h4 small, h5 .small, h5 small, h6 .small, h6 small {
+    font-weight: 400;
+    line-height: 1;
+    color: darkturquoise;
 }
 .col-sm-3 img {
 padding: 10px
 }
 .col-sm-1 img {
 padding: 10px
+}
+
+#product-page {
+  background-image: url('../images/product/couds.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center bottom; 
+}
+#product-intro {
+  background-color:  rgba(250, 240, 260, 0.5);
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 8px 15px;
+  color: navy
+}
+
+#animation img {
+    animation-name: FadeInOut;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 12s;
+    height:400px;
+    width: auto;
+ 
+}
+#animation-container {
+  min-height: 400px;
+  position: relative;
+}
+
+.animationpic{
+  position:absolute;
+}
+
+@keyframes FadeInOut {
+  0% {
+    opacity:1;
+  }
+  17% {
+    opacity:1;
+  }
+  25% {
+    opacity:0;
+  }
+  92% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+#animation img:nth-of-type(1) {
+  animation-delay: 10s;
+}
+#animation img:nth-of-type(2) {
+  animation-delay: 8s;
+}
+#animation img:nth-of-type(3) {
+  animation-delay: 6s;
+}
+#animation img:nth-of-type(4) {
+  animation-delay: 4s;
+}
+#animation img:nth-of-type(5) {
+  animation-delay: 2s;
+}
+#animation img:nth-of-type(6) {
+  animation-delay: 0s;
+}
+
+#product-details {
+  padding-top: 2em;
+}
+
+#product-row, #video-row {
+margin:.3px
+}
+.breadcrumb {
+    background-color:  rgba(250, 240, 260, 0.5);
+}
+.testimonial-img {
+  border-radius: 50%;
+  width: 75%
+}
+
+#orders {
+  background-color:  rgba(250, 240, 260, 0.5);
 }
