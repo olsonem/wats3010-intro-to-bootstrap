@@ -121,3 +121,6 @@ margin:.3px
 #orders {
   background-color:  rgba(250, 240, 260, 0.5);
 }
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
