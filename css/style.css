@@ -124,3 +124,11 @@ margin:.3px
 .carousel-inner > .item > img {
     margin: 0 auto;
 }
+.social-icon {  
+  max-width: 50px;  
+  
+}
+.footer-logo {
+  max-height: 85px;
+  margin-bottom: 15px;
+}
